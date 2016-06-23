@@ -1,0 +1,39 @@
+﻿Build started 04/02/2016 15:41:33.
+     1>Project "C:\Users\Bluer\Dropbox\C++ Project\CSI2372 Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt actioncard.cpp animalcard.cpp AnimalCardFactory.cpp deck.cpp hand.cpp main.cpp player.cpp startstack.cpp Table.cpp
+         Table.cpp
+         startstack.cpp
+         player.cpp
+         main.cpp
+     1>c:\users\bluer\dropbox\c++ project\deck.h(25): warning C4346: 'std::vector<T,std::allocator<_Ty>>::const_iterator': dependent name is not a type
+         c:\users\bluer\dropbox\c++ project\deck.h(25): note: prefix with 'typename' to indicate a type
+         c:\users\bluer\dropbox\c++ project\deck.h(28): note: see reference to class template instantiation 'Deck<T>' being compiled
+     1>c:\users\bluer\dropbox\c++ project\deck.h(25): error C2061: syntax error: identifier 'const_iterator'
+     1>c:\users\bluer\dropbox\c++ project\deck.h(25): error C2143: syntax error: missing ')' before '<'
+         c:\users\bluer\dropbox\c++ project\animalcardfactory.h(9): note: see reference to class template instantiation 'Deck<std::shared_ptr<AnimalCard>>' being compiled
+     1>c:\users\bluer\dropbox\c++ project\deck.h(25): error C2143: syntax error: missing ';' before '<'
+     1>c:\users\bluer\dropbox\c++ project\deck.h(25): error C2059: syntax error: '<'
+     1>c:\users\bluer\dropbox\c++ project\deck.h(25): error C2059: syntax error: ')'
+     1>c:\users\bluer\dropbox\c++ project\deck.h(25): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+         hand.cpp
+     1>c:\users\bluer\dropbox\c++ project\hand.cpp : fatal error C1041: cannot open program database 'C:\Users\Bluer\Dropbox\C++ Project\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         deck.cpp
+     1>c:\users\bluer\dropbox\c++ project\deck.cpp : fatal error C1041: cannot open program database 'C:\Users\Bluer\Dropbox\C++ Project\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         AnimalCardFactory.cpp
+     1>c:\users\bluer\dropbox\c++ project\animalcardfactory.cpp : fatal error C1041: cannot open program database 'C:\Users\Bluer\Dropbox\C++ Project\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         animalcard.cpp
+     1>c:\users\bluer\dropbox\c++ project\animalcard.cpp : fatal error C1041: cannot open program database 'C:\Users\Bluer\Dropbox\C++ Project\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         actioncard.cpp
+     1>c:\users\bluer\dropbox\c++ project\actioncard.cpp : fatal error C1041: cannot open program database 'C:\Users\Bluer\Dropbox\C++ Project\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Generating Code...
+     1>c:\users\bluer\dropbox\c++ project\player.cpp(9): error C4716: 'Player::player': must return a value
+     1>c:\users\bluer\dropbox\c++ project\player.cpp(22): warning C4715: 'Player::swapSecretAnimal': not all control paths return a value
+     1>c:\users\bluer\dropbox\c++ project\player.cpp(45): error C4716: 'operator<<': must return a value
+     1>c:\users\bluer\dropbox\c++ project\table.cpp(68): warning C4715: 'Table::match': not all control paths return a value
+     1>c:\users\bluer\dropbox\c++ project\table.cpp(177): warning C4715: 'Table::findPlayer': not all control paths return a value
+     1>Done Building Project "C:\Users\Bluer\Dropbox\C++ Project\CSI2372 Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.70
